@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "_receivers",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_amounts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "SendAirDrop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "向多个地址转账ERC20代币",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC20/Airdrop.sol": "Airdrop"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC20/Airdrop.sol": {
+			"keccak256": "0x551735ff94ba9cd423f63cea3ec9398c2e56a4f6a0903416ccfac68bcad16821",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31cef54539c58af3e96c3393d1072da7bfac06f01be91b0f7fecd25d8aaad459",
+				"dweb:/ipfs/QmXJnCVwMcf2fbku3tUqhQJ7U3z8H9KGjtFfoTxq5H7weM"
+			]
+		},
+		"ERC20/IERC20.sol": {
+			"keccak256": "0x45e083595645ce346eca36a83c5aea73e3955314709dadab861fa7fa091c1af3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6910705030ee7e44f036c5de940030badc4d8070ce1c5ca8cfdf2f4366a693c0",
+				"dweb:/ipfs/QmfNzDH2pwu92sAsz4LdeBhx1cwauZvNUcyhMC85oVhNgb"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "验证Merkle树的合约. proof可以用JavaScript库生成： https://github.com/miguelmota/merkletreejs[merkletreejs]. 注意: hash用keccak256，并且开启pair sorting （排序）. javascript例子见 `https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/test/utils/cryptography/MerkleProof.test.js`.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC721/MerkleProof.sol": "MerkleProof"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC721/Address.sol": {
+			"keccak256": "0x90262b5db19ccb676e6508487feba283a1b270c1c5fad3e45d77bc4963057eb7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6dfb69d637666be1d09e1739117f345163867cfae8f1d329b01879db53a88ca0",
+				"dweb:/ipfs/QmToRjgsmspMCBp7hwFJBqxhcFKBkbf7VQxRbXDu7n9i23"
+			]
+		},
+		"ERC721/ERC721.sol": {
+			"keccak256": "0x4eb10ef20ac389209da240873524fc7cac084e06276725f8097be3e29a46847f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56cfa9a032f1279407f538f50ec44427078c085a1d2806a1fa2570ac5ca810db",
+				"dweb:/ipfs/QmPunzzdAGgGBFzPr1P9ULirF4TDsqxZLSk6e3te7Zc2zw"
+			]
+		},
+		"ERC721/IERC165.sol": {
+			"keccak256": "0x9a8f9c7be8955609b5252161f118bc8a4640bb8ee82e287e6486e5ca21bf1ab5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2587358108ce107c79ad10f7b3f6172713087a5656197a4390dc1a594cb337de",
+				"dweb:/ipfs/QmRDAFxyyFVXnCMmL7Dx31fEYtrJvuhdZuSytPSTMofrAm"
+			]
+		},
+		"ERC721/IERC721.sol": {
+			"keccak256": "0x527118e4caab49b1fb83be7494f9db012e8233b3673938a3aadc8eefdc133e9b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2ed996288dfeb028ea9c68a3ac518f6757ed1b019f7e4ae8f592112bd0d3a08a",
+				"dweb:/ipfs/QmTT6xBg2uY3rtLcPhoszrJ4Nx9qAwvomQ92qYVjwis8nE"
+			]
+		},
+		"ERC721/IERC721Metadata.sol": {
+			"keccak256": "0x098c0358661d09857ba84b64b96dad61565c225a66279ab562f4e02f6cae9594",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ffc289433c97eff7f28cc2f6e4efd5968a45310655da9228876562425cca7603",
+				"dweb:/ipfs/QmRLsCHbr2Teyu8uoVo2uvEU8SucYv5saNbYeMTFvbrpn4"
+			]
+		},
+		"ERC721/IERC721Receiver.sol": {
+			"keccak256": "0x00c9b4ed4bffa5c5b88f1d4c89f2bec0d3032c85018c4a76184f50983f60d58e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4a6160635d5c7fbe3e69d748bf91e5243ebc9772be37e4bf828dd4ca18b2cc7",
+				"dweb:/ipfs/QmfMhjmHsAznHnCVULKmEFv6wgw5dEdXUDz5j6nxz4nYhY"
+			]
+		},
+		"ERC721/MerkleProof.sol": {
+			"keccak256": "0xf636c114828af8d54d481f06fcf48c1bfc8fba57202ba0c9be8017492afbebb2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab5c73da87abf1f76737f316230bc9b4607dbd6320110b0cb74f648fc6196a91",
+				"dweb:/ipfs/QmeK4NphcFY98GvV9byCF8W3pQELNLhEWi8xbc1gVSzxA6"
+			]
+		},
+		"ERC721/String.sol": {
+			"keccak256": "0x13372fee1e5dfe684344c3c80d064da29b53e50e8f7f149b4702ffa5758f6848",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c2d37389dd54c6157a96c999fd979ce9defd79760857780d7660663194843c8",
+				"dweb:/ipfs/QmTvMqo7t1CMP1MpfMiQUEwYvDphEmdZoRSuM4pG3zYMha"
+			]
+		}
+	},
+	"version": 1
+}
